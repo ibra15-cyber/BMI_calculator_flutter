@@ -1,0 +1,108 @@
+body: Column(
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 220,
+                height: 140,
+                margin: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                  color: Color(0xFF1D1E33),
+                  borderRadius: BorderRadius.circular(10)
+                ),
+              ),
+
+              SizedBox(
+                width: 0,
+              ),
+
+              Container(
+                width: 220,
+                height: 140,
+                margin: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                    color: Color(0xFF1D1E33),
+                    borderRadius: BorderRadius.circular(10)
+                ),
+              ),
+            ],
+          ),
+          Container(
+            width: 1000,
+            height: 140,
+            margin: EdgeInsets.all(15),
+            decoration: BoxDecoration(
+                color: Color(0xFF1D1E33),
+                borderRadius: BorderRadius.circular(10)
+            ),
+          ),
+
+          Row(
+            children: [
+              Container(
+                width: 220,
+                height: 140,
+                margin: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                    color: Color(0xFF1D1E33),
+                    borderRadius: BorderRadius.circular(10)
+                ),
+              ),
+
+              SizedBox(
+                width: 0,
+              ),
+
+              Container(
+                width: 220,
+                height: 140,
+                margin: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                    color: Color(0xFF1D1E33),
+                    borderRadius: BorderRadius.circular(10)
+                ),
+              ),
+            ],
+          ),
+        ],
+      )
+
+      this fn was used to replace repetitive code but was superseded by the class type
+
+      // Container container(){
+      //   return Container(
+      //     margin: EdgeInsets.all(15),
+      //     decoration: BoxDecoration(
+      //         color: Color(0xFF1D1E33),
+      //         borderRadius: BorderRadius.circular(10)),
+      //   );
+      // }
+
+
+
+
+
+      // const _InputPage({Key? key}) : super(key: key);
+        //default colors from our defined const color
+        // Color maleCardColor = kInactiveCardColor;
+        // Color femaleCardColor = kInactiveCardColor;
+
+        // fn to control onTap
+        // void updateColor(int gender){
+        //   if (gender == 1{
+        //     if(maleCardColor == kInactiveCardColor){
+        //       maleCardColor = kActiveCardColor;
+        //       femaleCardColor = kInactiveCardColor;
+        //     } else{
+        //       maleCardColor = kInactiveCardColor;
+        //     }
+        //   }
+        //   if( gender == Gender.female) {
+        //     if(femaleCardColor == kInactiveCardColor){
+        //       femaleCardColor = kActiveCardColor;
+        //       maleCardColor = kInactiveCardColor;
+        //     } else{
+        //       femaleCardColor = kInactiveCardColor;
+        //     }
+        //   }
+        // }
